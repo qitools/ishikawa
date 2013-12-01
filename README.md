@@ -1,4 +1,4 @@
-OpenCPU App: QItools
+OpenCPU App: ishikawa
 ---------------------
 
 Simple OpenCPU Application. 
@@ -12,7 +12,7 @@ To install in R on your computer:
     install_github("ishikawa", "qitools")
 
     library(opencpu)
-    opencpu$browse("library/qitools/www")
+    opencpu$browse("library/ishikawa/www")
 
 Use the same function using a local webserver on your computer:
 
