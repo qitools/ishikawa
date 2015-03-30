@@ -41,6 +41,7 @@ $(document).ready(function(){
 	var req = $('#target').contents().find('#plotdiv').r_fun_plot("ishikawa", {
 	  content: temp,
 	  topic: $("#topic").val(),
+	  head: $("#head").val(),
 	  theme : $("#theme").val()
     }).always(function(){
       $("#plotbutton").removeAttr("disabled");
@@ -74,7 +75,7 @@ $(document).ready(function(){
   width: 950px;
   height: 250px;
 }
-#topic { 
+#topic, #head { 
   position: relative;
   width: 950px;
 }    
@@ -166,13 +167,15 @@ color:#FFFFFF;
 			<li><a href="https://en.wikipedia.org/wiki/Transtheoretical_model#Stages_of_change">TTM</a> (Transtheoretical model)</li>
 			</ul>
 <div><input type="text" id="topic" name="topic" placeholder="Enter topic for title of chart" /> </div>
-<div id="editor">Provider=c('Distracted','Unaware','Inaccessible knowledge','Nonparsable documentation','Not motivated','Not done: reason unknown'),
+<div><input type="text" id="head" name="head" placeholder="Enter outcome for head of fishbone" /> </div>
+<div>&nbsp;</div>
+<div id="editor">'Provider'=c('Distracted','Unaware','Inaccessible knowledge','Nonparsable documentation','Not motivated','Not done: reason unknown'),
 
-Patient=c('No visit during time period','Multiple complaints','TTM: early stage','HBM: ____', 'No resource: _____'),
+'Patient'=c('No visit during time period','Multiple complaints','TTM: early stage','HBM: ____', 'No resource: _____'),
 
-System=c('Acute vs continuity visit', 'Specialty vs primary care', 'Personnel absent','Supplies unavailable','Bean counting error'),
+'System'=c('Acute vs continuity visit', 'Specialty vs primary care', 'Personnel absent','Supplies unavailable','Bean counting error'),
 
-Personnel=c('Distracted','Inaccessible knowledge','Nonparsable documentation','Not done: reason unknown','Not motivated','Not empowered')
+'Personnel'=c('Distracted','Inaccessible knowledge','Nonparsable documentation','Not done: reason unknown','Not motivated','Not empowered')
 </div>	
             <br />
 
