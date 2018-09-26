@@ -13,8 +13,8 @@ if (head != ""){effect = head}
 #par(col.axis="black" ,col.lab=KUBlue ,col.main=KUBlue ,col.sub=KUBlue,bg="#FFFFFF",xaxt="s",yaxt="s",mai=c(.956,.769,.769,.394),pin=c(14,14))
 par(col.axis="black" ,col.lab=KUBlue ,col.main=KUBlue ,col.sub=KUBlue,bg="#FFFFFF",xaxt="s",yaxt="s")
 cause.and.effect(cause=causes,title="",effect=effect,cex = c(1, 0.9, 1), font = c(2, 3, 2))
-mtext(topic,        side=3,line=2,col=KUBlue,font=2, cex=1.3)
-mtext("(Ishikawa or fish-bone diagram)", side=3.5,line=1.5,col=KUBlue,font=2, cex=1)
+mtext(topic,        side=3,line=2.5,col=KUBlue,font=2, cex=1.3)
+mtext("(Ishikawa or fish-bone diagram)", side=3,line=1.5,col=KUBlue,font=2, cex=1)
 if(theme=="KU"){display_logo(x=1.2,y=0.05)}
 }
 
