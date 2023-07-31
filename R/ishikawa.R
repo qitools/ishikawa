@@ -17,4 +17,4 @@ mtext(topic,        side=3,line=2.5,col=KUBlue,font=2, cex=1.3)
 mtext("(Ishikawa or fish-bone diagram)", side=3,line=1.5,col=KUBlue,font=2, cex=1)
 if(theme=="KU"){display_logo(x=1.2,y=0.05)}
 }
-
+ 
