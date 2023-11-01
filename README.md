@@ -3,21 +3,6 @@ OpenCPU App: ishikawa
 
 Simple OpenCPU Application. 
 
-To access online, R is not needed on your computer, browse to https://public.opencpu.org/ocpu/github/qitools/ishikawa/www/
-
-To install in R on your computer:
-
-    library(devtools)
-    install_github("opencpu", "jeroenooms")
-    install_github("ishikawa", "qitools")
-
-    library(opencpu)
-    opencpu$browse("library/ishikawa/www")
-
-Use the same function using a local webserver on your computer:
-
-    library(ishikawa)
-    ishikawa()
-    ?ishikawa
+To access online, R is not needed on your computer, browse to https://qitools.ocpu.io/ishikawa/www/ 
 
 For more information about OpenCPU apps, see [opencpu.js](https://github.com/jeroenooms/opencpu.js#readme)
